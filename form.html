@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Feedback Form</h2>
+    <form action="#" method="post">
+      <label for="name">Name(Optional)</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name"  />
+
+      <label for="email">Email Address(Optional)</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email"  />
+      <label for="Phone">Phone(Optional)</label>
+      <input type="text" id="Phone" name="Phone" placeholder="Enter phone number"/>
+      <label for="rating">Rating</label>
+      <select id="rating" name="rating" >
+        <option value="" disabled selected>Select your rating</option>
+        <option value="5">Excellent</option>
+        <option value="4">Very Good</option>
+        <option value="3">Good</option>
+        <option value="2">Average</option>
+        <option value="1">Poor </option>
+      </select>
+
+      <label for="comments">Any Questions regarding product or service.</label>
+      <textarea id="comments" name="comments" placeholder="any questions..." ></textarea>
+      <label for="comments">Additional Comments</label>
+      <textarea id="comments" name="comments" placeholder="Write your additonal comments here..." ></textarea>
+
+      <button type="submit" >Submit </button>
+
+      
+    </form>
+  </div>
+</body>
+</html>
